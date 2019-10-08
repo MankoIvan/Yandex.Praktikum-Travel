@@ -1,4 +1,4 @@
 # Проект о путешествиях по стране
 Учебный проект платформы Yandex.Praktikum, подготовленный к корректному отображению на экранах популярных размеров. 
 Целью данной работы было закрепление навыков по верстке и работа с адаптивом.
-## https://mankoivan.github.io/Yandex.Praktikum-Start/
+## https://mankoivan.github.io/Yandex.Praktikum-Travel/
