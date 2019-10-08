@@ -1,0 +1,11 @@
+@import url(./__paragraph/place__paragraph.css);
+
+.place__text {
+    height: 464px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__text {
+        height: auto;
+    }
+}

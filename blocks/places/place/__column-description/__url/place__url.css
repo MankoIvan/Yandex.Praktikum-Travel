@@ -1,0 +1,21 @@
+.place__url {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 48px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: underline; 
+}
+
+@media screen and (max-width: 600px) {
+    .place__url {
+        margin-bottom: 0;
+        font-size: 0;
+        line-height: 0;
+    }
+}

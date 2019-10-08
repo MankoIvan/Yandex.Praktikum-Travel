@@ -1,0 +1,19 @@
+.place__image {
+    display: block;
+    margin-top: 53px;
+    width: 100%;   
+    height: auto; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+@media screen and (max-width: 860px) {
+    .place__image {
+        margin-top: 33px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .place__image {
+        margin-top: 25px;
+    }
+}

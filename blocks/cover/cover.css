@@ -1,0 +1,39 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__image/cover__image.css);
+
+.cover {
+    width: 1184px;
+    height: 594px;
+    margin: auto;
+    margin-top: 97px;
+    position: relative;
+}
+
+@media screen and (max-width: 1184px) {
+    .cover {  
+        width: 100%;   
+        height: calc(0.2 * 100vw + (1786px / 5));
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cover {  
+        height: calc((31 / 128) * 100vw + 314px);
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover {  
+        height: calc((76 / 131) * 100vw + (7132px / 131));
+    }
+}
+@media screen and (max-width: 375px) {
+    .cover {  
+        margin-top: 43px;
+        height: calc((56 / 55) * 100vw - (1208px / 11));
+    }
+}
+@media screen and (max-width: 350px) {
+    .cover {  
+        margin-top: 59px;
+    }
+}

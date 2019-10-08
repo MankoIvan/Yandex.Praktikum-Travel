@@ -1,0 +1,17 @@
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__url/place__url.css);
+@import url(./link/link.css);
+@import url(./__text/place__text.css);
+
+.place__column-description {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+    .place__column-description {
+        width: 100%;
+    }
+}

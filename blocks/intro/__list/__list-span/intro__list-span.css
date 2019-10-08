@@ -1,0 +1,12 @@
+.intro__list-span {
+    font-size: 13px;
+    line-height: 20px; 
+    font-weight: bold; 
+}
+
+@media screen and (max-width: 425px) {
+    .intro__list-span { 
+        font-size: 12px;
+        line-height: 19px;   
+    }
+}

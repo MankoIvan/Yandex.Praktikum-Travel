@@ -1,0 +1,23 @@
+.video__icon-picture {
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 900px) {
+    .video__icon-picture {  
+        top: 24px;
+        left: 24px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .video__icon-picture {  
+        top: 16px;
+        left: 16px;
+    }
+}

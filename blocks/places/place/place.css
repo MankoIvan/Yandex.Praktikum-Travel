@@ -1,0 +1,19 @@
+@import url(./__column-title/place__column-title.css);
+@import url(./__column-description/place__column-description.css);
+
+.place {
+    margin-top: 83px;
+    display: flex;
+    justify-content: flex-start;
+}
+@media screen and (max-width: 1079px) {
+    .place {
+        margin-top: 83px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .place {
+        margin-top: 59px;
+        flex-direction: column;
+    }
+}

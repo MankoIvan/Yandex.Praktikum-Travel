@@ -1,0 +1,24 @@
+@import url(./__list-span/intro__list-span.css);
+
+.intro__list {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+    margin: auto;
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none; 
+    list-style: none;
+}
+
+@media screen and (max-width: 425px) {
+    .intro__list { 
+        font-size: 12px;
+        line-height: 19px;   
+    }
+}

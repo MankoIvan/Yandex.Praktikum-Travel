@@ -1,0 +1,23 @@
+.header__caption {
+    margin: 12px auto auto;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+    font-weight: 100;
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;    
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .header__caption {  
+        margin-left: 24px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .header__caption {  
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,21 @@
+.video__duration {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 55px;
+    position: absolute;
+    left: 30px;
+    bottom: 144px;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .video__duration {  
+        bottom: 110px;
+    }
+}

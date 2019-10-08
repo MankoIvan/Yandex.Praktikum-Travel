@@ -1,0 +1,27 @@
+.video__subtitle {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 250px;
+    position: absolute;
+    left: 30px;
+    bottom: 28px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .video__icon-picture {  
+        left: 24px;
+        bottom: 22px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .video__icon-picture {  
+        left: 16px;
+        bottom: 14px;
+    }
+}

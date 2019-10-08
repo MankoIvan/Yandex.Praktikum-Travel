@@ -1,0 +1,26 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+
+.place__column-title {
+    min-width: 460px;
+    margin-right: 40px;
+}
+@media screen and (max-width: 1279px) {
+    .place__column-title {
+        min-width: 47%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .place__column-title {
+        margin-right: 32px;
+    }
+}@media screen and (max-width: 768px) {
+    .place__column-title {
+        margin-right: 28px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .place__column-title {
+        margin-right: 0;
+    }
+}

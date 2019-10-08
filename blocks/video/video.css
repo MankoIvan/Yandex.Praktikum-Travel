@@ -1,0 +1,30 @@
+@import url(./section-title/section-title.css);
+@import url(./section-subtitle/section-subtitle.css);
+@import url(./__container/video__containder.css);
+
+.video {
+    width: 1184px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .video {  
+        width: calc(100% - 96px);   
+    }
+}
+@media screen and (max-width: 1023px) {
+    .video {  
+        width: 928px;   
+    }
+}
+@media screen and (max-width: 975px) {
+    .video {  
+        width: calc(100% - 48px);    
+    }
+}
+@media screen and (max-width: 600px) {
+    .video {  
+        width: calc(100% - 32px);    
+    }
+}
+

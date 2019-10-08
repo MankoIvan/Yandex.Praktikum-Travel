@@ -1,0 +1,31 @@
+@import url(./comment/comment.css);
+
+.comments__container {
+    width: 1184px;
+    margin: 63px auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1279px) {
+    .comments__container {  
+        width: calc(100% - 96px);
+    }
+}
+@media screen and (max-width: 900px) {
+    .comments__container {  
+        margin-top: 15px;
+        flex-direction: column;
+        width: 382px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .comments__container {  
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 414px) {
+    .comments__container {  
+        width: calc(100% - 32px);
+    }
+}

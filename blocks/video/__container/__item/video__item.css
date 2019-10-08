@@ -1,0 +1,42 @@
+@import url(./__image/video__image.css);
+@import url(./__icon-picture/video__icon-picture.css);
+@import url(./__duration/video__duration.css);
+@import url(./__title/video__title.css);
+@import url(./__subtitle/video__subtitle.css);
+
+.video__item {
+    width: calc(50% - 9px);
+    height: 323px;
+    position: relative;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .video__item {  
+        height: calc((35 / 256) * 100vw + 148px);
+    }
+}
+@media screen and (max-width: 1024px) {
+    .video__item {  
+        width: calc(50% - 8px);
+        height: calc((11 / 32) * 100vw - 64px);
+    }
+}
+@media screen and (max-width: 768px) {
+    .video__item {  
+        height: 200px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .video__item {  
+        width: 343px;
+        margin: auto;
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .video__item {  
+        height: calc((8 / 55) * 100vw + 145px);
+        width: 100%;
+    }
+}

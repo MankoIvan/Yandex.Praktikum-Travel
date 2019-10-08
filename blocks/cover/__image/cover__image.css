@@ -1,0 +1,14 @@
+.cover__image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.7);
+    overflow: hidden;
+}
+
+.cover__image:hover {
+    filter: brightness(0.2);
+}

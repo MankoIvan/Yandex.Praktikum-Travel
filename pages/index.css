@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+@import url(../fonts/Inter/inter.css);
+
+body {
+    background-color: #2a2c2f;
+}
+.page {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: "inter";
+    background-color: #2a2c2f;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}

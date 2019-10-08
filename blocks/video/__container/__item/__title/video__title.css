@@ -1,0 +1,23 @@
+.video__title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 322px;
+    position: absolute;
+    left: 30px;
+    bottom: 53px;
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: 900;
+    text-align: left;
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .video__title {  
+        width: 200px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
